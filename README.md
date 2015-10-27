@@ -1,8 +1,10 @@
 # maven_jmeter_jenkins
 step1：在eclipse中新建maven工程
+
 step2：新建目录src/test/jmeter，拷贝jmter的项目jmx到该目录
+
 step3：修改pom.xml
-<build>
+       <build>
 		<plugins>
 			<plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
